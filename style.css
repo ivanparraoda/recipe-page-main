@@ -1,0 +1,114 @@
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: var(--Eggshell);
+  color: var(--WengeBrown);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+}
+
+main {
+  background-color: var(--White);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 500px;
+  margin: 4rem 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section-style {
+  margin-top: 2rem;
+}
+h1 {
+  color: var(--DarkCharcoal);
+  font-size: 2.5rem;
+  margin-bottom: 2px;
+  margin-top: 1rem;
+}
+
+h2 {
+  color: var(--DarkRaspberry);
+  font-size: 1.2rem;
+}
+h3 {
+  color: var(--Nutmeg);
+  font-size: 1.4rem;
+}
+h1,
+h3 {
+  font-family: 'Young Serif', serif;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+li {
+  line-height: 2;
+  color: var(--Nutmeg);
+  font-weight: bold;
+}
+
+.ingredients {
+  font-size: 0.8rem;
+}
+.ingredients span {
+  color: var(--WengeBrown);
+}
+
+.steps,
+.prep {
+  font-weight: bold;
+  color: var(--WengeBrown);
+  font-size: 0.8rem;
+}
+.info,
+.description {
+  color: var(--WengeBrown);
+  font-size: 0.8rem;
+}
+
+.info,
+.ingr {
+  font-weight: normal;
+}
+
+.description {
+  font-weight: normal;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+td {
+  border-bottom: 1px solid var(--LightGrey);
+  padding: 10px;
+}
+
+.num {
+  color: var(--Nutmeg);
+  font-weight: bold;
+}
+.last {
+  border-bottom: none;
+}
